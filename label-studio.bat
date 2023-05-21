@@ -1,8 +1,8 @@
-git clone https://github.com/heartexlabs/label-studio.git
+::git clone https://github.com/heartexlabs/label-studio.git
 
 cd label-studio
 
-pip install -e .
+::pip install -e .
 
 python label_studio/manage.py migrate
 
